@@ -1,0 +1,21 @@
+{
+  "name": "growth-studio-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "start": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.86.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  }
+}

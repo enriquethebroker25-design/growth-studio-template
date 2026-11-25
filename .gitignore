@@ -1,0 +1,8 @@
+node_modules/
+.env*
+!.env.example
+.vercel/
+test-results/
+playwright-report/
+deploy-payload.json
+public/
